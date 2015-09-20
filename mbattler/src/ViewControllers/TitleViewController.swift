@@ -12,8 +12,11 @@ class TitleViewController : BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        println(width())
-        println(height())
+        addTapGesture("tapped:")
+    }
+    
+    func tapped(sender: UITapGestureRecognizer) {
+        println("tapped")
     }
     
     override func didReceiveMemoryWarning() {

@@ -25,5 +25,10 @@ class BaseViewController : UIViewController {
     func height() -> CGFloat {
         return self.view.bounds.height
     }
+    
+    func addTapGesture(action: Selector) {
+        let tapGesture:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: action)
+        self.view.addGestureRecognizer(tapGesture)
+    }
 }
 

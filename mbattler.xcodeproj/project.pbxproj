@@ -14,6 +14,7 @@
 		55A94AA31BAEBDE700FF06D2 /* mbattlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A94AA21BAEBDE700FF06D2 /* mbattlerTests.swift */; };
 		55A94AB21BAEC7CA00FF06D2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A94AB11BAEC7CA00FF06D2 /* BaseViewController.swift */; };
 		55A94AB51BAECB3700FF06D2 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A94AB41BAECB3700FF06D2 /* TitleViewController.swift */; };
+		55A94AB81BAED5A800FF06D2 /* BaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A94AB71BAED5A800FF06D2 /* BaseViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		55A94AA21BAEBDE700FF06D2 /* mbattlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbattlerTests.swift; sourceTree = "<group>"; };
 		55A94AB11BAEC7CA00FF06D2 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		55A94AB41BAECB3700FF06D2 /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		55A94AB71BAED5A800FF06D2 /* BaseViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewControllerTests.swift; path = ViewControllers/BaseViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				55A94AA01BAEBDE700FF06D2 /* Supporting Files */,
 				55A94AA21BAEBDE700FF06D2 /* mbattlerTests.swift */,
+				55A94AB61BAED56A00FF06D2 /* ViewControllers */,
 			);
 			path = mbattlerTests;
 			sourceTree = "<group>";
@@ -129,6 +132,14 @@
 				55A94AB41BAECB3700FF06D2 /* TitleViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		55A94AB61BAED56A00FF06D2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				55A94AB71BAED5A800FF06D2 /* BaseViewControllerTests.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55A94AA31BAEBDE700FF06D2 /* mbattlerTests.swift in Sources */,
+				55A94AB81BAED5A800FF06D2 /* BaseViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
