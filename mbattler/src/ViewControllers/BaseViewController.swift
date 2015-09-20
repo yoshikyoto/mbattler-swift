@@ -17,5 +17,13 @@ class BaseViewController : UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    func width() -> CGFloat {
+        return self.view.bounds.width
+    }
+    
+    func height() -> CGFloat {
+        return self.view.bounds.height
+    }
 }
 
